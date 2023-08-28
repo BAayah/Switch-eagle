@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    background-color: rebeccapurple;
+}
+button {
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px groove;
+    /* background: transparent; */
+    font-size: 15px;
+}
+button:hover {
+    transform: scale(1.125);
+    background-color: yellowgreen;
+    transition: all .3s ease;
+}
